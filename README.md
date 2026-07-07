@@ -4,11 +4,11 @@ Libre, ergonomic, *polymorphic*: a single PCB for many possible layouts.
 
 [3×6, 3×5, hummingbird, and everything in between](https://onedeadkey.github.io/quacken/).
 
-![Quacken Flex, unibody Raven, 42 keys](pics/quacken_raven_slybebop_left.jpg)
+![Quacken Flex, unibody Raven, 42 keys](docs/pics/quacken_raven_slybebop_left.jpg)
 
-![Quacken Flex, split Finch, 32 keys](pics/quacken_finch.jpg)
+![Quacken Flex, split Finch, 32 keys](docs/pics/quacken_finch.jpg)
 
-[More pics…](pics#readme)
+[More pics…](docs/pics#readme)
 
 ## Project
 

@@ -15,187 +15,14 @@
     <meta property="og:description"  content="A libre, ergonomic, polymorphic keyboard.">
     <link type="image/svg+xml" rel="icon" href="favicon.svg" sizes="any">
     <link type="text/css" rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="keeb.js" defer></script>
   </head>
   <body>
     <header>
       <nav><a href="https://onedeadkey.github.io">⮝ OneDeadKey</a></nav>
       <h1>Quacken</h1>
       <p>Libre. Ergonomic. <em>Polymorphic</em>.</p>
+      <img src="pics/quacken_raven_slybebop_left.jpg" alt="a Quacken keyboard on a table: unibody, 42 keys, red switches, black keycaps">
     </header>
-
-    <form>
-      <select onchange="setConfig(this.value.toLowerCase())">
-        <option>Raven</option>        <!-- Corbeau  -->
-        <option>Owl</option>          <!-- Chouette -->
-        <option>Sparrowhawk</option>  <!-- Épervier -->
-        <option>Hoopoe</option>       <!-- Huppe    -->
-        <!-- 34 keys -->
-        <option>Bluejay</option>      <!-- Geai bleu  -->
-        <option>Wallcreeper</option>  <!-- Tichodrome -->
-        <option>Bluethroat</option>   <!-- Gorgebleue -->
-        <option>Swift</option>        <!-- Martinet   -->
-        <option>Swallow</option>      <!-- Hirondelle -->
-        <!-- 32 keys -->
-        <option>Kingfisher</option>   <!-- Martin-pêcheur -->
-        <option>Finch</option>        <!-- Pinson         -->
-      </select>
-    </form>
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="38 -12 880 380">
-      <g id="board">
-        <path id="flex-half" d="m0 42 q-51 28-131 10 v-68 q86 0 112 -35 l19 15z"/>
-        <use href="#flex-half" transform="scale(-1 1)"/>
-      </g>
-
-      <g id="left">
-        <g class="outer matrix">
-          <g class="col6">
-            <g class="key top"/>
-            <g class="key home"/>
-            <g class="key bottom"/>
-          </g>
-          <g class="col6m">
-            <g class="key top"/>
-            <g class="key home"/>
-          </g>
-
-          <g class="pinky matrix">
-            <g class="col5">
-              <g class="key top"/>
-              <g class="key home"/>
-              <g class="key bottom"/>
-            </g>
-            <g class="col5m">
-              <g class="key top"/>
-              <g class="key home"/>
-            </g>
-
-            <g class="ring matrix">
-              <g class="col4">
-                <g class="key top"/>
-                <g class="key home dual"/>
-                <g class="key bottom"/>
-              </g>
-
-              <g class="middle matrix">
-                <g class="col3">
-                  <g class="key top"/>
-                  <g class="key home dual"/>
-                  <g class="key bottom"/>
-                </g>
-
-                <g class="index matrix">
-                  <g class="col2">
-                    <g class="key top"/>
-                    <g class="key home dual"/>
-                    <g class="key bottom"/>
-                  </g>
-
-                  <g class="thumbCluster">
-                    <g class="tucked thumb">
-                      <g class="key"/>
-                      <g class="comfy thumb">
-                        <g class="key"/>
-                        <g class="reachy thumb">
-                          <g class="key"/>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-
-                  <g class="inner matrix">
-                    <g class="col1">
-                      <g class="key top"/>
-                      <g class="key home"/>
-                      <g class="key bottom"/>
-                    </g>
-                    <g class="col1m">
-                      <g class="key top"/>
-                      <g class="key home"/>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-
-      <g id="right">
-        <g class="outer matrix">
-          <g class="col6">
-            <g class="key top"/>
-            <g class="key home"/>
-            <g class="key bottom"/>
-          </g>
-          <g class="col6m">
-            <g class="key top"/>
-            <g class="key home"/>
-          </g>
-
-          <g class="pinky matrix">
-            <g class="col5">
-              <g class="key top"/>
-              <g class="key home"/>
-              <g class="key bottom"/>
-            </g>
-            <g class="col5m">
-              <g class="key top"/>
-              <g class="key home"/>
-            </g>
-
-            <g class="ring matrix">
-              <g class="col4">
-                <g class="key top"/>
-                <g class="key home dual"/>
-                <g class="key bottom"/>
-              </g>
-
-              <g class="middle matrix">
-                <g class="col3">
-                  <g class="key top"/>
-                  <g class="key home dual"/>
-                  <g class="key bottom"/>
-                </g>
-
-                <g class="index matrix">
-                  <g class="col2">
-                    <g class="key top"/>
-                    <g class="key home dual"/>
-                    <g class="key bottom"/>
-                  </g>
-
-                  <g class="thumbCluster">
-                    <g class="tucked thumb">
-                      <g class="key"/>
-                      <g class="comfy thumb">
-                        <g class="key"/>
-                        <g class="reachy thumb">
-                          <g class="key"/>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-
-                  <g class="inner matrix">
-                    <g class="col1">
-                      <g class="key top"/>
-                      <g class="key home"/>
-                      <g class="key bottom"/>
-                    </g>
-                    <g class="col1m">
-                      <g class="key top"/>
-                      <g class="key home"/>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </svg>
 
     <section>
       <h2 id="radial-geometry">Radi(c)al Geometry</h2>
@@ -220,6 +47,7 @@
 
     <section>
       <h2 id="unibody-by-default">Unibody by Default</h2>
+      <img src="pics/quacken_owl_nuke.jpg" alt="a unibody Quacken keyboard seen from above: 40 keys, white keycaps on home and thumb keys, black keycaps on all other keys">
       <p> The Quacken is unibody by default. </p>
       <p> We believe most keyboard out there are poorly designed, and split geometries are just a
         way to make them usable. Shifting the responsibility to the user, letting them find a good
@@ -233,6 +61,7 @@
 
     <section>
       <h2 id="splittable-by-choice">Splittable by Choice</h2>
+      <img src="pics/quacken_finch_split_nuke.jpg" alt="a split Quacken keyboard seen from above: 30 keys, white keycaps on thumb keys, black keycaps on all other keys">
       <p> <em>Your keyboard, your rules!</em> We recommend starting with a unibody configuration,
         but you can split your keeb any time: grab a hacksaw and an FFP2/N95 mask, follow the
         pre-cut line, polish the edge with sandpaper — there, you have a split keyboard. Connect the
@@ -248,6 +77,7 @@
 
     <section>
       <h2 id="polymorphic">Polymorphic</h2>
+      <iframe src="keeb" style="aspect-ratio: 2/1"></iframe>
       <p> The two pinky columns and the inner index columns have two sets of positions, to fit
         either two or three keys. We recommend the 40-key “Owl” configuration by default, but
         <em>your keyboard, your rules:</em> pick the 42-key config if you want <kbd>Shift</kbd> keys
@@ -260,6 +90,7 @@
 
     <section>
       <h2 id="low-profile">Low Profile</h2>
+      <img src="pics/quacken_owl_nuke_low.jpg" alt="a unibody Quacken keyboard seen from the side, with a 1¢ coin for scale">
       <p> No keyboard is ergonomic if you have to angle your wrists, and nobody likes wrist rests.
         The Quacken has been designed around Choc switches to remain close to the table. </p>
       <p> We’re working on a casing that comes <em>above</em> the board, to keep the keeb as
@@ -283,9 +114,5 @@
     <footer>
       🄯 2025-2026 <a href="https://github.com/OneDeadKey/quacken">OneDeadKey contributors</a>, GPL license.
     </footer>
-
-    <script>
-      document.querySelector("select").focus();
-    </script>
   </body>
 </html>

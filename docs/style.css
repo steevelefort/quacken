@@ -66,8 +66,9 @@ h2 {
 form {
   text-align: center;
 }
-svg {
+img, iframe, svg {
   width: 100%;
+  border: none;
 }
 
 nav {

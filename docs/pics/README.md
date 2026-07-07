@@ -1,5 +1,7 @@
 User-contributed pictures:
 
+![Quacken Flex, unibody Owl by Nuke, 40 keys, low angle](quacken_owl_nuke_low.jpg)
+
 ![Quacken Flex, unibody Hoopoe by eveetz, 36 keys](quacken_hoppoe_eveetz.jpg)
 
 ![Quacken Flex, unibody Raven (left) by SlyBebop, 42 keys](quacken_raven_slybebop_left.jpg)
